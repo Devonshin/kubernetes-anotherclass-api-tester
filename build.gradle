@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.1pro'
-version = '0.0.1-SNAPSHOT'
+version = '3.0.0-SNAPSHOT'
 sourceCompatibility = '17'
 
 configurations {
@@ -33,6 +33,6 @@ tasks.named('test') {
 
 jar {
 	archiveBaseName.set('app') // 기본 파일 이름을 설정
-	archiveVersion.set('0.0.1')           // 버전을 설정
+	archiveVersion.set('3.0.0')           // 버전을 설정
 	archiveClassifier.set('SNAPSHOT')      // 분류자(classifier)를 설정
 }
